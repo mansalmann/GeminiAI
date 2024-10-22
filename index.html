@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeminiAI by Salman</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/gemini.svg" type="image/svg+xml">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
+  </head>
+  <body>
+
+    <!-- navbar section start -->
+    <nav class="navbar">
+      <h3 class="navbar_logo">GeminiAI by Salman</h3>
+      <div class="toggler">
+        <a href="https://github.com/mantokreng" target="_blank" title="My Github" class="navbar_button" id="githubButton"><i class="bx bxl-github"></i></a>
+        <button class="navbar_button" id="themeButton"><i class="bx bx-sun"></i></button>
+      </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- header section start -->
+    <header class="header">
+      <div class="header_title">
+        <h1>Hello There!</h1>
+        <h2>How can I help you today?</h2>
+      </div>
+      <div class="suggests">
+        <div class="suggests_item">
+          <p class="suggests_item_text">
+            Bagaimana cara Gemini AI ini bekerja?
+          </p>
+          <div class="suggests_item_icon">
+            <i class='bx bx-desktop'></i>
+          </div>
+        </div>
+        <div class="suggests_item">
+          <p class="suggests_item_text">
+            Bagaimana cara menjadi programmer front-end yang handal?
+          </p>
+          <div class="suggests_item_icon">
+            <i class='bx bxl-javascript' ></i>
+          </div>
+        </div>
+        <div class="suggests_item">
+          <p class="suggests_item_text">
+            Bagaimana cara menjadi programmer back-end yang handal?
+          </p>
+          <div class="suggests_item_icon">
+            <i class='bx bxl-php' ></i>
+          </div>
+        </div>
+        <div class="suggests_item">
+          <p class="suggests_item_text">
+            Bagaimana cara menjadi programmer fullstack yang handal?
+          </p>
+          <div class="suggests_item_icon">
+            <i class='bx bx-code-curly' ></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- box chat section start -->
+    <section class="chats"></section>
+    <!-- box chat section end -->
+
+    <!-- prompt input section start -->
+    <section class="prompt">
+      <form action="#" class="prompt_form" novalidate>
+        <div class="prompt_input_wrapper">
+          <input type="text" class="prompt_form_input" placeholder="Ask Gemini" required>
+          <button class="prompt_form_button" id="sendButton">
+            <i class='bx bx-send'></i>
+          </button>
+          <button class="prompt_form_button" id="deleteButton">
+            <i class='bx bx-trash'></i>
+          </button>
+        </div>
+      </form>
+      <p class="prompt_disclaimer">
+        GeminiAI may display inaccurate information, so double-check its responses. Created by Salman Alfarisi (2024)
+      </p>
+    </section>
+    <!-- prompt input section end -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
